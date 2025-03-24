@@ -13,7 +13,7 @@ document.getElementById('programming').addEventListener("click", () => {
     .then(data => {
         console.log(data);
         document.getElementById('jokeText').textContent = data.joke || data.setup +"..."+ data.delivery;
-    })
+    });
     document.getElementById('titleText').textContent = "A Random Programming Joke!";
 });
 
@@ -24,7 +24,7 @@ document.getElementById('spooky').addEventListener("click", () => {
     .then(data => {
         console.log(data);
         document.getElementById('jokeText').textContent = data.joke || data.setup +"..."+ data.delivery;
-    })
+    });
     document.getElementById('titleText').textContent = "A Random Spooky Joke!";
 });
 
@@ -35,7 +35,7 @@ document.getElementById('christmas').addEventListener("click", () => {
     .then(data => {
         console.log(data);
         document.getElementById('jokeText').textContent = data.joke || data.setup +"..."+ data.delivery;
-    })
+    });
     document.getElementById('titleText').textContent = "A Random Christmas Joke!";
 });
 
@@ -46,7 +46,7 @@ document.getElementById('pun').addEventListener("click", () => {
     .then(data => {
         console.log(data);
         document.getElementById('jokeText').textContent = data.joke || data.setup +"..."+ data.delivery;
-    })
+    });
     document.getElementById('titleText').textContent = "A Random Pun!";
 });
 
@@ -57,6 +57,6 @@ document.getElementById('misc').addEventListener("click", () => {
     .then(data => {
         console.log(data);
         document.getElementById('jokeText').textContent = data.joke || data.setup +"..."+ data.delivery;
-    })
+    });
     document.getElementById('titleText').textContent = "A Random Miscellaneous Joke!";
 });
